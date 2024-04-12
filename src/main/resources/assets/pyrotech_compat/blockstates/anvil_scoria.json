@@ -1,0 +1,33 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "pyrotech:anvil",
+    "textures": {
+      "top": "primal:blocks/typestone/scoria_stone_smooth",
+      "top_side": "primal:blocks/typestone/scoria_stone_smooth",
+      "bottom_side": "primal:blocks/typestone/nether_stone_normal",
+      "bottom": "primal:blocks/typestone/nether_stone_normal",
+      "particle": "primal:blocks/typestone/scoria_stone_smooth"
+    }
+  },
+  "variants": {
+    "damage": {
+      "0": {},
+      "1": {
+        "textures": {
+          "top": "pyrotech_compat:blocks/anvil_scoria_damaged_a"
+        }
+      },
+      "2": {
+        "textures": {
+          "top": "pyrotech_compat:blocks/anvil_scoria_damaged_b"
+        }
+      },
+      "3": {
+        "textures": {
+          "top": "pyrotech_compat:blocks/anvil_scoria_damaged_c"
+        }
+      }
+    }
+  }
+}

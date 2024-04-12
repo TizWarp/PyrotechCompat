@@ -107,9 +107,22 @@ repositories {
         name 'CleanroomMC Maven'
         url 'https://maven.cleanroommc.com'
     }
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 dependencies {
+
+    compileOnly "curse.maven:dropt-284973:3758733"
+    runtimeOnly "curse.maven:dropt-284973:3758733"
+    compileOnly "curse.maven:underground-biomes-293268:3832678"
+    runtimeOnly "curse.maven:underground-biomes-293268:3832678"
+    compileOnly "curse.maven:pyrotech-306676:5210730"
+    runtimeOnly "curse.maven:pyrotech-306676:5210730"
+    compileOnly "curse.maven:athenaeum-284350:4633750"
+    runtimeOnly "curse.maven:athenaeum-284350:4633750"
+
     if (propertyBool('use_modern_java_syntax')) {
         annotationProcessor 'com.github.bsideup.jabel:jabel-javac-plugin:1.0.0'
         // Workaround for https://github.com/bsideup/jabel/issues/174
